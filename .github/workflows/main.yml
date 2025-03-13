@@ -22,11 +22,7 @@ jobs:
       - name: Set up PHP
         uses: shivammathur/setup-php@v2
         with:
-          php-version: '7.4' # Change the PHP version as needed
-
-      - name: Install dependencies
-        run: |
-          composer install
+          php-version: '8.2.27'
 
       - name: Run PHPStan
         run: |
