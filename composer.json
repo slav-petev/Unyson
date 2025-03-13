@@ -1,0 +1,16 @@
+{
+  "name": "your-project-name",
+  "description": "A project with PHPStan for static analysis",
+  "require": {
+    "php": "^8.0"
+  },
+  "require-dev": {
+    "phpstan/phpstan": "^2.0"
+  },
+  "scripts": {
+    "analyse": "phpstan analyse"
+  },
+  "config": {
+    "optimize-autoloader": true
+  }
+}
