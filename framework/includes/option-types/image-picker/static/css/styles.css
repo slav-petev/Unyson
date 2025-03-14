@@ -4,9 +4,7 @@
 
 .fw-option-type-image-picker ul.thumbnails.image_picker_selector {
 	overflow: auto;
-	list-style-image: none;
-	list-style-position: outside;
-	list-style-type: none;
+	list-style: none outside none;
 	padding: 0;
 	margin: 0 0 -5px 0;
 }
