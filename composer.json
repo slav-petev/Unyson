@@ -1,0 +1,22 @@
+{
+    "name": "fusion/unyson",
+    "description": "Custom fork of Unyson plugin",
+    "type": "wordpress-plugin",
+    "require": {
+        "johnpbloch/wordpress": "^6.7"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^2.1"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Fusion\\Unyson\\": "framework/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "johnpbloch/wordpress-core-installer": true
+        }
+    }
+}
