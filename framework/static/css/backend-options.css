@@ -295,8 +295,8 @@ body.rtl .fw-backend-side-tabs .fw-options-tabs-first-level>.fw-options-tabs-lis
 .fw-backend-side-tabs .fw-options-tabs-first-level>.fw-options-tabs-list ul li {
 	float: none;
 	margin-right: 0;
-	border: 1px solid #d3d3d3;
-	border-width: 0 0 1px;
+	border: 0 solid #d3d3d3;
+	border-bottom-width: 1px;
 	overflow: hidden;
 }
 

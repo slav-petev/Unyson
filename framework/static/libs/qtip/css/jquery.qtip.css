@@ -85,8 +85,6 @@
 			.qtip-icon .ui-icon{
 				width: 18px;
 				height: 14px;
-
-				line-height: 14px;
 				text-align: center;
 				text-indent: 0;
 				font: normal bold 10px/13px Tahoma,sans-serif;
@@ -306,10 +304,7 @@
 	background-image: -webkit-linear-gradient(top, #717171, #232323);
 	background-image: -ms-linear-gradient(top, #717171, #232323);
 	background-image: -o-linear-gradient(top, #717171, #232323);
-
-	border: 2px solid #ddd;
 	border: 2px solid rgba(241,241,241,1);
-
 	-moz-border-radius: 2px;
 	-webkit-border-radius: 2px;
 	border-radius: 2px;
@@ -462,7 +457,6 @@
 	/** Taken from Bootstrap .popover */
 	padding: 1px;
 	background-color: #ffffff;
-	border: 1px solid #ccc;
 	border: 1px solid rgba(0, 0, 0, 0.2);
 	-webkit-border-radius: 6px;
 	-moz-border-radius: 6px;
