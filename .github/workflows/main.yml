@@ -10,24 +10,22 @@ on:
       - main
     paths:
       - '**/*.php'
+      - '.github/workflows/main.yml'
 
 jobs:
-  phpstan:
-    name: Run PHPStan
+  build:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
       - name: Set up PHP
         uses: shivammathur/setup-php@v2
         with:
-          php-version: '8.2.27'
+          php-version: '8.2'
+          tools: composer
+          coverage: none
 
-      - name: Install dependencies
-        run: |
-          composer install
-
-      - name: Run PHPStan
-        run: |
-          vendor/bin/phpstan analyse
+      - name: Install Composer Dependencies
+        run: composer install --prefer-dist --no-progress --no-suggest --no-interaction
