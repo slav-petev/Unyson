@@ -775,7 +775,6 @@ body.rtl .fw-backend-side-tabs .fw-settings-form-header .form-header-buttons {
 
 	-webkit-animation: fwFadeIn 3s ease-in;
 	-moz-animation: fwFadeIn 3s ease-in;
-	-ms-animation: fwFadeIn 3s ease-in;
 	-o-animation: fwFadeIn 3s ease-in;
 	animation: fwFadeIn 3s ease-in;
 }
@@ -976,9 +975,6 @@ body.rtl .fw-postbox>.inside>.fw-backend-options-last-border-hider {
 .fw-backend-option-design-customizer>.fw-backend-option-input>.fw-inner {
 	position: relative;
 	max-width: 100%;
-
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
 

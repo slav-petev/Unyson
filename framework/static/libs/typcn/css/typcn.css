@@ -1,4 +1,4 @@
-@charset 'UTF-8';
+@charset "UTF-8";
  
 /* @FONT-FACE loads font into browser */
 @font-face {
@@ -26,7 +26,6 @@
   line-height: 100%;
   text-align: center;
   -webkit-font-smoothing: antialiased;
-  font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
  

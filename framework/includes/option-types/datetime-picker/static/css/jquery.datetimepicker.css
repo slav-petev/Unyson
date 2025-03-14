@@ -10,7 +10,6 @@
 	padding: 2px 8px 8px 0;
 	position: absolute;
 	z-index: 9999;
-	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	display:none;
 }
@@ -32,10 +31,8 @@
 .fw_xdsoft_noselect{
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;
-	-khtml-user-select: none;
 	-moz-user-select: none;
 	-ms-user-select: none;
-	-o-user-select: none;
 	user-select: none;
 }
 .fw_xdsoft_noselect::selection { background: transparent; }
@@ -46,7 +43,6 @@
 	box-shadow: none;
 }
 .fw_xdsoft_datetimepicker *{
-	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	padding:0;
 	margin:0;
