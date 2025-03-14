@@ -10,7 +10,7 @@
 }
 
 .toplevel_page_fw-extensions > .wp-menu-image:before {
-	font-family: 'unyson-font-icon';
+	font-family: 'unyson-font-icon', sans-serif;
 	speak: none;
 	font-style: normal;
 	font-weight: normal;

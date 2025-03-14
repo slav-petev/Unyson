@@ -11,7 +11,7 @@
 }
 
 [class^="entypo-"], [class*=" entypo-"] {
-  font-family: entypo;
+  font-family: entypo, sans-serif;
   font-style: normal;
 
   /* font-size: 14px; */

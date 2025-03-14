@@ -12,7 +12,7 @@
 
 /* Use the following CSS code if you want to use data attributes for inserting your icons */
 [data-icon]:before {
-	font-family: 'linecons';
+	font-family: 'linecons', sans-serif;
 	content: attr(data-icon);
 	speak: none;
 	font-weight: normal;
@@ -22,7 +22,7 @@
 
 /* Use the following CSS code if you want to have a class per icon */
 [class^="linecons-"]:before, [class*=" linecons-"]:before {
-	font-family: 'linecons';
+	font-family: 'linecons', sans-serif;
 	font-style: normal;
 	speak: none;
 	font-weight: normal;

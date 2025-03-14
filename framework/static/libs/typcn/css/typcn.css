@@ -14,7 +14,7 @@
  
 /* :before psuedo-selector inserts and styles icon */
 .typcn:before {
-  font-family: 'typicons';
+  font-family: 'typicons', sans-serif;
   font-style: normal;
   font-weight: normal;
   speak: none;
