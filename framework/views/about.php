@@ -13,7 +13,7 @@ $url_install_plugin = is_multisite() ? network_admin_url( 'plugin-install.php?s=
 			font-size: 15px;
 			line-height: 1;
 			background-color: #d62c64;
-			box-shadow: 0px 2px 0px 0px #981e46;
+			box-shadow: 0 2px 0 0 #981e46;
 			padding: 11px 27px 12px;
 			border: 1px solid #d62c64;
 			border-bottom: 0;
@@ -27,7 +27,7 @@ $url_install_plugin = is_multisite() ? network_admin_url( 'plugin-install.php?s=
 			background-color: #141923;
 			color: #fff;
 			border-color: #141923;
-			box-shadow: 0px 2px 0px 0px #141923;
+			box-shadow: 0 2px 0 0 #141923;
 		}
 		.fw-btn-install-border {
 			color: #d62c64;
